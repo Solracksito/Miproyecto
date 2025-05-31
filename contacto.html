@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Fan de Marshmello</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #232526, #414345);
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #000;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #00ffe0;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #00ffe0;
+            border: none;
+            color: black;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00cccc;
+        }
+
+        footer {
+            background-color: #000;
+            padding: 15px;
+            color: #aaa;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<a href="index.html">
+    <button>Regresar a la página principal</button>
+</a>
+<body>
+
+    <header>
+        <h1>¡Formulario Fan de Marshmello!</h1>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="cancion">Canción favorita de Marshmello:</label>
+            <input type="text" id="cancion" name="cancion" placeholder="Ej. Alone, Happier, Friends">
+
+            <label for="opinion">¿Qué te gusta de Marshmello?</label>
+            <textarea id="opinion" name="opinion" rows="4" placeholder="Escribe tu opinión aquí..."></textarea>
+
+            <label for="calificacion">Califica su música (1-5):</label>
+            <select id="calificacion" name="calificacion">
+                <option value="5">5 - Excelente</option>
+                <option value="4">4 - Muy buena</option>
+                <option value="3">3 - Buena</option>
+                <option value="2">2 - Regular</option>
+                <option value="1">1 - Mala</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        &copy; Carlos Obregon
+    </footer>
+
+</body>
+
+</html>

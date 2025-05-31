@@ -15,8 +15,8 @@
 
         header {
             background: url('./Fotos/91LheZyvuFL.jpg') no-repeat center center/cover;
-            padding: 100px 20px;
-            text-align: center;
+            padding: 100px 40px;
+            text-align: left;
             color: #fff;
         }
 
@@ -35,7 +35,7 @@
         }
 
         nav a {
-            color: #0f0;
+            color: rgb(9, 240, 232);
             text-decoration: none;
             font-weight: bold;
         }
@@ -46,7 +46,7 @@
 
         .section-title {
             font-size: 2rem;
-            border-bottom: 2px solid #0f0;
+            border-bottom: 2px solid rgb(211, 229, 12);
             margin-bottom: 10px;
         }
 
@@ -56,13 +56,9 @@
             gap: 20px;
         }
 
-        .game-card {
-            background-color: #222;
-            border: 1px solid #333;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 0 10px #0f0;
-            transition: transform 0.2s;
+        .game-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
         }
 
         .game-card:hover {
@@ -98,8 +94,8 @@
     <nav>
         <nav>
             <ul>
-                <li><a href="index.html"></a></li>
-                <li><a href="nosotros.html">Conciertos</a></li>
+                <a href="index.html"></a></li>
+                <li><a href="nosotros.html">Artista</a></li>
                 <li><a href="servicios.html">Canciones</a></li>
                 <li><a href="contacto.html">formulario</a></li>
             </ul>
@@ -109,6 +105,7 @@
     <div class="content">
         <section>
             <h2 class="section-title">Marshmello</h2>
+            <p style="text-align: center;">
             <div class="game-grid">
                 <div class="game-card">
                     <img src="https://m.media-amazon.com/images/I/91LheZyvuFL.jpg" alt="Joytime" />
